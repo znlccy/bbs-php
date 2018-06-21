@@ -12,8 +12,9 @@
 use phpmailer\phpmailer;
 
 /**
- * 发送邮箱
- * @param type $data 邮箱队列数据 包含邮箱地址 内容
+ * 发送邮箱 邮箱队列数据 包含邮箱地址 内容
+ * @param array $data
+ * @throws \phpmailer\phpmailerException
  */
 function sendEmail($data = []) {
 
@@ -29,11 +30,11 @@ function sendEmail($data = []) {
     $mail->CharSet = "UTF-8"; //字符集
     $mail->Encoding = "base64"; //编码方式
 
-    $mail->Username = 'znlccy0603@163.com';  //你的邮箱
+    $mail->Username = 'znl06***03****@163.com';  //你的邮箱
     $mail->Password = 'znl*****ccy0603******0704';  //你的密码
     $mail->Subject = '资源鸟系统提示'; //邮件标题
 
-    $mail->From = 'znlccy0603@163.com';  //发件人地址（也就是你的邮箱）
+    $mail->From = 'ccy******06****03@163.com';  //发件人地址（也就是你的邮箱）
     $mail->FromName = '资源鸟';  //发件人姓名
 
     if($data && is_array($data)){
