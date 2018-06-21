@@ -9,7 +9,13 @@
 // | Author: liu21st <liu21st@gmail.com>
 // +----------------------------------------------------------------------
 
-return [
+use think\Route;
+
+Route::domain('api', 'www.bbs.com/api');
+Route::rule('user/:id', 'api/user/index');
+Route::rule('user/send/email', 'api/user/sendMail');
+
+/*return [
     '__pattern__' => [
         'name' => '\w+',
     ],
@@ -19,4 +25,6 @@ return [
     ],
 
 
-];
+];*/
+
+
