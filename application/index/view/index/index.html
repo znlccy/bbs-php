@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>首页</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="icon" type="image/x-icon" href="/static/ico/usstcms.ico"/>
+    {css href="/static/css/bootstrap.min.css" /}
+    {css href="/static/css/toastr.css" /}
+    {js href="/static/js/jquery-3.3.1.js" /}
+    {js href="/static/js/bootstrap.min.js" /}
+    {js href="/static/js/toastr.js" /}
+</head>
+<body style="background: #1f3f4a;">
+    <div>
+        <!-- Header begin -->
+        {include file="header"}
+        <!-- Header end -->
+
+        <!-- Content begin -->
+        <div class="col-xs-8 col-md-8 col-sm-8" style="padding-top: 80px">
+            <div class="panel panel-primary">
+                <div class="panel-heading">
+                    <div class="panel-title">
+                        论坛新帖
+                        <a href="" style="float: right;color: white">更多>></a>
+                    </div>
+                </div>
+                <div class="panel-body">
+                    {$Think.session.username}
+                </div>
+            </div>
+        </div>
+
+        <div class="col-xs-4 col-md-4 col-sm-4" style="margin-top: 80px">
+            <div class="panel panel-primary">
+                <div class="panel-heading">
+                    <div class="panel-title">
+                        论坛公告
+                        <a href="" style="float: right; color: white">更多>></a>
+                    </div>
+                </div>
+                <div class="panel-body">
+                    这是体部分
+                </div>
+            </div>
+        </div>
+        <!-- Footer begin -->
+        {include file="footer"}
+        <!-- Footer end -->
+    </div>
+</body>
+</html>
