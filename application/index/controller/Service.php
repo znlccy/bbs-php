@@ -12,10 +12,10 @@ use think\Controller;
 class Service extends Controller {
 
     /**
-     *
+     * 创业服务资源
      */
     public function resource() {
-
+        return $this->fetch();
     }
 
 }

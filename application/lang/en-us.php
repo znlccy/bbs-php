@@ -45,6 +45,12 @@ return [
     'project_introduction'                  => 'Project Introduction',
     'business_plan_submission'              => 'Business Plan Submission',
 
+    //Footer View
+    'copyright'                             => '@2018 Shanghai Youda Network Technology Co., Ltd. Tel:021-48121581',
+
     //About Us View
+
+    //Resource View
+    'resource'                              => 'Entrepreneurial Service Resources',
 
 ];

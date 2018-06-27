@@ -36,7 +36,8 @@ class User extends Controller {
         if ($user) {
             Session::start();
             Session::set('username', $username);
-            $this->redirect(url('index/index/index', \session('username')));
+            /*$this->redirect(url('index/index/index', \session('username')));*/
+            return $this->success('登录失败', url('index/index/index'));
         } else {
             return $this->error('登录失败', url('index/user/login'));
         }

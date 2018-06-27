@@ -97,7 +97,7 @@ return [
     // 是否强制使用路由
     'url_route_must'         => false,
     // 域名部署
-    'url_domain_deploy'      => false,
+    'url_domain_deploy'      => true,
     // 域名根，如thinkphp.cn
     'url_domain_root'        => '',
     // 是否自动转换URL中的控制器和操作名
@@ -143,8 +143,8 @@ return [
     // 视图输出字符串内容替换
     'view_replace_str'       => [],
     // 默认跳转页面对应的模板文件
-    'dispatch_success_tmpl'  => THINK_PATH . 'tpl' . DS . 'dispatch_jump.tpl',
-    'dispatch_error_tmpl'    => THINK_PATH . 'tpl' . DS . 'dispatch_jump.tpl',
+    'dispatch_success_tmpl'  => THINK_PATH . 'tpl' . DS . 'success_jump.tpl',
+    'dispatch_error_tmpl'    => THINK_PATH . 'tpl' . DS . 'fail_jump.tpl',
 
     // +----------------------------------------------------------------------
     // | 异常及错误设置

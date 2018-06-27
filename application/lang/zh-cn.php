@@ -45,7 +45,14 @@ return [
     'project_introduction'                  => '项目介绍',
     'business_plan_submission'              => '商业计划书提交',
 
+    //Footer view
+    'copyright'                             => '@2018 上海游达网络科技有限公司 电话:021-48121581',
+
     //About Us View
     'email'                                 => '电子邮箱',
     'required'                              => '必填字段',
+
+    //Resource View
+    'resource'                              => '创业服务资源',
+
 ];

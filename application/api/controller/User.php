@@ -7,7 +7,7 @@
  */
 namespace app\api\controller;
 
-class User {
+class User extends BaseController {
 
     /**
      * 用户登录首页
@@ -22,5 +22,12 @@ class User {
      */
     public function sendMail() {
         sendEmail([['user_email'=>'znlccy0603@163.com','content'=>'资源鸟，让一切变得简单，加qq群 623918245 畅聊']]);
+    }
+
+    /**
+     * 用户登录
+     */
+    public function login() {
+        echo json_encode('welcome to function login!');
     }
 }
