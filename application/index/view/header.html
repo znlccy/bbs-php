@@ -1,8 +1,8 @@
 {css href="/static/css/header.css" /}
 <div id="header">
-    <nav class="navbar navbar-inverse navbar-fixed-top" role="navigation">
+    <nav class="navbar navbar-inverse" role="navigation">
         <div class="navbar-header">
-            <a class="navbar-brand" href="index">商业论坛</a>
+            <a class="navbar-brand" href="index">{$Think.lang.business_forum}</a>
         </div>
 
         <div class="collapse navbar-collapse">
@@ -39,8 +39,8 @@
             </ul>
 
             <ul class="nav navbar-nav navbar-right">
-                <li><a href="" lang="cn" class="btn">中文</a></button></li>
-                <li><a href="" lang="en" class="btn">English</a></button></li>
+                <li><a href="" lang="cn" class="btn">{$Think.lang.Cn}</a></button></li>
+                <li><a href="" lang="en" class="btn">{$Think.lang.En}</a></button></li>
                 <li><a href="{:url('index/user/login')}" class="">{$Think.lang.login}</a></li>
                 <li><a href="{:url('index/user/register')}">{$Think.lang.register}</a></li>
                 <li class="dropdown">
@@ -50,15 +50,15 @@
                         <li class="divider"></li>
                         <li><a href="{:url('index/contact/joinUs')}">{$Think.lang.join_us}</a></li>
                         <li class="divider"></li>
-                        <li><a href="">{$Think.lang.seek_cooperation}</a></li>
+                        <li><a href="{:url('index/contact/seekCooperation')}">{$Think.lang.seek_cooperation}</a></li>
                     </ul>
                 </li>
                 <li class="dropdown">
                     <a href="" class="dropdown-toggle" data-toggle="dropdown">{$Think.lang.personal_center}<span class="caret"></span></a>
                     <ul class="dropdown-menu">
-                        <li><a href="">{$Think.lang.data_management}</a></li>
-                        <li><a href="">{$Think.lang.registered_activities}</a></li>
-                        <li><a href="">{$Think.lang.message_center}</a></li>
+                        <li><a href="{:url('index/personal/dataManager')}">{$Think.lang.data_management}</a></li>
+                        <li><a href="{:url('index/personal/registeredActivities')}">{$Think.lang.registered_activities}</a></li>
+                        <li><a href="{:url('index/personal/messageCenter')}">{$Think.lang.message_center}</a></li>
                     </ul>
                 </li>
             </ul>

@@ -45,14 +45,33 @@ return [
     'project_introduction'                  => '项目介绍',
     'business_plan_submission'              => '商业计划书提交',
 
+    //Index View
+    'index'                                 => '首页',
+    'new_forum_posts'                       => '论坛新帖',
+    'more'                                  => '更多',
+    'forum_announcement'                    => '论坛公告',
+    'business_forum'                        => '商业论坛',
+
     //Footer view
     'copyright'                             => '@2018 上海游达网络科技有限公司 电话:021-48121581',
 
     //About Us View
-    'email'                                 => '电子邮箱',
+    'email'                                 => '邮箱',
     'required'                              => '必填字段',
+
+    //Join Us View
+    'remark'                                => '留言',
+    'cellphone'                             => '电话',
+    'send'                                  => '发送',
+    'reset'                                 => '重置',
+    'phone'                                 => '座机',
 
     //Resource View
     'resource'                              => '创业服务资源',
 
+    //Personal View
+
+    //Language View
+    'Cn'                                    => '中文',
+    'En'                                    => '英文',
 ];

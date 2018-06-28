@@ -3,6 +3,7 @@ namespace app\index\controller;
 
 use think\Controller;
 use think\View;
+use app\index\model\Bulletin;
 
 class Index extends Controller
 {
@@ -18,6 +19,10 @@ class Index extends Controller
      */
     public function index()
     {
+        $bulletin = new Bulletin();
+        $data = Bulletin::All();
+        /*dump($data);*/
+        $this->assign('data', $data);
         return $this->fetch();
     }
 

@@ -45,12 +45,32 @@ return [
     'project_introduction'                  => 'Project Introduction',
     'business_plan_submission'              => 'Business Plan Submission',
 
+    //Index View
+    'index'                                 => 'Home',
+    'new_forum_posts'                       => 'New Forum Posts',
+    'more'                                  => 'More',
+    'forum_announcement'                    => 'Forum Announcement',
+    'business_forum'                        => 'BusinessForum',
+
     //Footer View
     'copyright'                             => '@2018 Shanghai Youda Network Technology Co., Ltd. Tel:021-48121581',
 
     //About Us View
+    'email'                                 => 'Email',
+    'required'                              => 'Required',
+
+    //Join Us View
+    'remark'                                => 'Leave a message',
+    'cellphone'                             => 'Mobile',
+    'send'                                  => 'Send',
+    'reset'                                 => 'Reset',
+    'phone'                                 => 'Landline',
 
     //Resource View
     'resource'                              => 'Entrepreneurial Service Resources',
+
+    //Language View
+    'Cn'                                    => 'Cn',
+    'En'                                    => 'En',
 
 ];
